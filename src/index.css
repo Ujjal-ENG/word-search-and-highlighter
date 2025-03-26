@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind CSS custom Style and Using this style whatever i want */
+
+.my-container {
+    @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-7xl  lg:py-10;
+}
+
+@layer components {
+    .btn-own {
+        @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700;
+    }
+}
+
+.active {
+    @apply font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-blue-400;
+}
+
+.default {
+    @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400;
+}
