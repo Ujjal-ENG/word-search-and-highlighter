@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchResults from './SearchItems/SearchResults'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <SearchResults />
+    </div>
   )
 }
 
